@@ -1,5 +1,8 @@
 package com.vishal.dsa.patterns;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Pattern7 {
     public static void main(String[] args) {
         int row = 5;
@@ -12,10 +15,16 @@ public class Pattern7 {
                     System.out.print("*");
                 }
             for (int k = 0;k<row-i-1;k++){
+
+
+
                 System.out.print(" ");
             }
             System.out.println();
 
         }
+        Map<String,String> emp =  new HashMap<>();
+        emp.put("j","f");
     }
+
 }
